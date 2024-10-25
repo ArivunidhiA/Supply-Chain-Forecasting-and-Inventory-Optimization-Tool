@@ -1,0 +1,64 @@
+# Supply Chain Forecasting and Inventory Optimization Tool
+A Python-based tool for demand forecasting, inventory optimization, and supply chain analytics.
+
+## 📁 Project Structure
+```
+supply-chain-forecasting/
+│
+├── data/
+│   ├── raw/
+│   │   ├── sales_history.csv
+│   │   ├── inventory_data.csv
+│   │   └── supplier_info.csv
+│   └── processed/
+│       └── .gitkeep
+│
+├── notebooks/
+│   ├── 1_data_exploration.ipynb
+│   ├── 2_demand_forecasting.ipynb
+│   └── 3_inventory_optimization.ipynb
+│
+├── src/
+│   ├── __init__.py
+│   ├── data_processing.py
+│   ├── forecasting.py
+│   ├── optimization.py
+│   ├── database.py
+│   └── visualization.py
+│
+├── sql/
+│   ├── create_tables.sql
+│   └── queries.sql
+│
+├── dashboard/
+│   └── supply_chain_dashboard.twb
+│
+├── tests/
+│   ├── __init__.py
+│   ├── test_forecasting.py
+│   └── test_optimization.py
+│
+├── requirements.txt
+├── README.md
+├── .gitignore
+└── main.py
+```
+
+## 🚀 Quick Start
+1. Clone the repository
+2. Install dependencies: `pip install -r requirements.txt`
+3. Run the main application: `python main.py`
+
+## 🛠️ Technology Stack
+- Python 3.8+
+- pandas, numpy, scikit-learn
+- statsmodels, prophet
+- SQLite
+- Tableau/Power BI
+
+## 📊 Features
+- Demand forecasting using time series analysis
+- Inventory optimization
+- Supply chain efficiency analysis
+- Interactive dashboards
+- Database management
